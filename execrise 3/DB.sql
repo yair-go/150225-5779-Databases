@@ -1,4 +1,4 @@
-CREATE TABLE ambulance's_company
+CREATE TABLE ambulance_company
 (
   IDComp NUMERIC(3) NOT NULL,
   Name VARCHAR(10) NOT NULL,
@@ -35,6 +35,6 @@ CREATE TABLE ambulance
   IDComp NUMERIC(3) NOT NULL,
   HospitalID NUMERIC(3) NOT NULL,
   PRIMARY KEY (CarNumber),
-  FOREIGN KEY (IDComp) REFERENCES ambulance's_company(IDComp),
+  FOREIGN KEY (IDComp) REFERENCES ambulance_company(IDComp),
   FOREIGN KEY (HospitalID) REFERENCES Hospital(HospitalID)
 );
