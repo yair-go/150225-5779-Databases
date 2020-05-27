@@ -1,7 +1,7 @@
 CREATE TABLE ambulance_company
 (
   IDComp NUMERIC(3) NOT NULL,
-  Name VARCHAR(10) NOT NULL,
+  Name VARCHAR(20) NOT NULL,
   Phone VARCHAR(10) NOT NULL,
   Address VARCHAR(25) NOT NULL,
   PRIMARY KEY (IDComp)
