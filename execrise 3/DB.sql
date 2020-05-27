@@ -10,7 +10,7 @@ CREATE TABLE ambulance_company
 CREATE TABLE Hospital
 (
   Name VARCHAR(15) NOT NULL,
-  Address VARCHAR(25) NOT NULL,
+  Address VARCHAR(30) NOT NULL,
   HospitalID NUMERIC(3) NOT NULL,
   Capacity NUMERIC(5) NOT NULL,
   PRIMARY KEY (HospitalID)
@@ -20,7 +20,7 @@ CREATE TABLE volunteer
 (
   ID NUMERIC(9) NOT NULL,
   Name VARCHAR(20) NOT NULL,
-  Address VARCHAR(25) NOT NULL,
+  Address VARCHAR(30) NOT NULL,
   Phone VARCHAR(10) NOT NULL,
   role VARCHAR(10) NOT NULL,
   HospitalID NUMERIC(3) NOT NULL,
