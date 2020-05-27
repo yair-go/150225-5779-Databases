@@ -9,7 +9,7 @@ CREATE TABLE ambulance_company
 
 CREATE TABLE Hospital
 (
-  Name VARCHAR(10) NOT NULL,
+  Name VARCHAR(15) NOT NULL,
   Address VARCHAR(25) NOT NULL,
   HospitalID NUMERIC(3) NOT NULL,
   Capacity NUMERIC(5) NOT NULL,
