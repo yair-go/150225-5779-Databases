@@ -25,7 +25,10 @@ Run the sql files in the following order:
  we need to do 3 querties that gives data from the connection.
  
  TODO list:
+ 
  *שאילתא שמחזירה שמות המדענים בבי"ח מסוים
- *החזרת רשימה של בתי החולים וכמות המדענים בכל אחד מהם
+
+*החזרת רשימה של בתי החולים וכמות המדענים בכל אחד מהם
+ 
  *שאילתא שמחזירה את כל במדענים שיש להם יותר מ-3 מתנדבים
  
