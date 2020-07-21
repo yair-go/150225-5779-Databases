@@ -18,7 +18,7 @@ Run the sql files in the following order:
  TODO list:
  * connect avinoam sebbah DB and create schema between scientists and volunteers.
 
-   schema(IDscientist, ~IDvolunteer~)
+   schema(IDscientist, &#95;IDvolunteer&#95;)
  
  afterwards we will be in level 8:
  
