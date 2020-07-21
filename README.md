@@ -14,15 +14,18 @@ Run the sql files in the following order:
 * schedule.sql
  
  
- now we are in level 7:
+ now we are on level 7:
  TODO list:
  * connect avinoam sebbah DB and create schema between scientists and volunteers.
 
    schema(IDscientist, &#95;IDvolunteer&#95;)
  
- afterwards we will be in level 8:
+ afterwards we will be on level 8:
  
  we need to do 3 querties that gives data from the connection.
  
  TODO list:
- *שאילתא שמחזירה  
+ *שאילתא שמחזירה שמות המדענים בבי"ח מסוים
+ *החזרת רשימה של בתי החולים וכמות המדענים בכל אחד מהם
+ *שאילתא שמחזירה את כל במדענים שיש להם יותר מ-3 מתנדבים
+ 
